@@ -15,6 +15,7 @@ formElement.addEventListener("submit", (event) => {
     let currency = currencyElement.value;
     let eurRate = 4.79;
     let usdRate = 4.32;
+    let rubRate = 0.039;
     let amount = +amountElement.value;
 
     switch (currency) {
@@ -23,6 +24,9 @@ formElement.addEventListener("submit", (event) => {
             break;
         case "USD":
             result = amount / usdRate;
+            break;
+        case "RUB":
+            result = amount / rubRate;
             break;
     };
 
