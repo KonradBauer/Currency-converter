@@ -30,6 +30,7 @@
 }
 
 .form__button:hover {
+    cursor: pointer;
     border: none;
     border-radius: 2px;
     background-color: hsl(180, 100%, 35%);
