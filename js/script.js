@@ -2,10 +2,10 @@ let amountElement = document.querySelector(".js-amount");
 let currencyElement = document.querySelector(".js-currency");
 let resultElement = document.querySelector(".js-result");
 let formElement = document.querySelector(".js-form");
-let resetButton = document.querySelector(".js-reset");
+let resetButtonElement = document.querySelector(".js-reset");
 
-resetButton.addEventListener("click", () => {
-    resultElement.innerHTML = ("Result:<strong> N/A</strong>")
+resetButtonElement.addEventListener("click", () => {
+    resultElement.innerHTML = ("Result:")
 });
 
 formElement.addEventListener("submit", (event) => {
