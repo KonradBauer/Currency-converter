@@ -1,6 +1,6 @@
 ﻿# Currency-converter 💱 💵
  
-## This is simply currency converter app. You can convert PLN (Polish Zloty) to EUR, USD or Rubel.
+## This is simply currency converter app. You can convert PLN (Polish Zloty) to EUR, USD or Ruble.
 
 ### Demo: https://konradbauer.github.io/Currency-converter/
 
