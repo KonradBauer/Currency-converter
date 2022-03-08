@@ -12,4 +12,6 @@
 - EcmaScript6
 - BEM
 - CSS
+- HTML
+- JavaScript
 
