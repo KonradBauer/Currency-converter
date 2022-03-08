@@ -16,11 +16,15 @@
     };
 
     const resetResult = () => {
-        resultElement.innerHTML = ("Result:")
+        const resultElement = document.querySelector(".js-result");
+
+        resultElement.innerText = ("Result:")
+
     };
 
     const updateResult = (amount, result, currency) => {
         const resultElement = document.querySelector(".js-result");
+
         resultElement.innerHTML = `Result: <strong> ${amount} PLN = ${result.toFixed(2)} ${currency}</strong>`;
     };
 
@@ -29,6 +33,7 @@
 
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
+
         const currency = currencyElement.value;
         const amount = +amountElement.value;
         const result = calculate(currency, amount);
