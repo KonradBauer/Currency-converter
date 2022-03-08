@@ -1,8 +1,8 @@
-let amountElement = document.querySelector(".js-amount");
-let currencyElement = document.querySelector(".js-currency");
-let resultElement = document.querySelector(".js-result");
-let formElement = document.querySelector(".js-form");
-let resetButtonElement = document.querySelector(".js-reset");
+const amountElement = document.querySelector(".js-amount");
+const currencyElement = document.querySelector(".js-currency");
+const resultElement = document.querySelector(".js-result");
+const formElement = document.querySelector(".js-form");
+const resetButtonElement = document.querySelector(".js-reset");
 
 resetButtonElement.addEventListener("click", () => {
     resultElement.innerHTML = ("Result:")
@@ -12,11 +12,11 @@ formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
     let result = resultElement;
-    let currency = currencyElement.value;
-    let eurRate = 4.79;
-    let usdRate = 4.32;
-    let rubRate = 0.039;
-    let amount = +amountElement.value;
+    const currency = currencyElement.value;
+    const eurRate = 4.79;
+    const usdRate = 4.32;
+    const rubRate = 0.039;
+    const amount = +amountElement.value;
 
     switch (currency) {
         case "EUR":
