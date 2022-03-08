@@ -9,7 +9,7 @@
 
 #### Used technologies:
 
-- EcmaScript6
+- ES6+ features
 - BEM
 - CSS
 - HTML
