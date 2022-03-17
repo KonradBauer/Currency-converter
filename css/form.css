@@ -56,6 +56,10 @@
     border-radius: 2px;
 }
 
+.form__result {
+    margin: 10px 0 0 5px;
+}
+
 .form__fieldset {
     background-color: azure;
     border-radius: 5px;
