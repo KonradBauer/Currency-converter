@@ -5,7 +5,7 @@
 ### Demo: https://konradbauer.github.io/Currency-converter/
 
 
-![How to use:](https://github.com/KonradBauer/Currency-converter/blob/main/images/currencyConverterAnimation.gif?raw=true)
+![How to use:](https://github.com/KonradBauer/Currency-converter/blob/main/images/animation.gif?raw=true)
 
 #### Used technologies:
 
